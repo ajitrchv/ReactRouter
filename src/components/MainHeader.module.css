@@ -29,10 +29,14 @@
     text-decoration: none;
   }
   
-  .header a:hover,
+  .header a:hover{
+    color: #95bcf0;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #d9ed92;
+  }
   .header a:active,
   .header a.active {
     color: #95bcf0;
     padding-bottom: 0.25rem;
-    border-bottom: 4px solid #95bcf0;
+    border-bottom: 4px solid #84b6f8 ;
   }
